@@ -28,5 +28,5 @@ jobs:
           xcodebuild clean build \
             -project IzmirBusApp.xcodeproj \
             -scheme IzmirBusApp \
-            -destination 'platform=iOS Simulator,name=iPhone 14,OS=latest' \
+            -destination 'platform=iOS Simulator,id=172BB666-DFA7-48AA-B314-EE1F7F0DF647,OS=26.2,name=iPhone SE (3rd generation)' \
             CODE_SIGNING_ALLOWED=NO
